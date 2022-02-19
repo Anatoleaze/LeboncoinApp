@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/liste_action"
+        android:icon="@mipmap/ic_list_white_24dp"
+        android:title="Liste"
+        app:showAsAction="always"></item>
+
+    <item android:id="@+id/compte_action"
+        android:icon="@mipmap/ic_account_box_white_18dp"
+        android:title="C"
+        app:showAsAction="always"></item>
+
+    <item android:id="@+id/ajoute_annonce_action"
+        android:icon="@mipmap/ic_note_add_white_18dp"
+        android:title="Add"
+        app:showAsAction="always"></item>
+
+    <item android:id="@+id/vider_liste"
+        android:icon="@mipmap/ic_note_add_white_18dp"
+        android:title="Vider liste"
+        app:showAsAction="never"></item>
+
+    <item android:id="@+id/remplir_liste"
+        android:icon="@mipmap/ic_note_add_white_18dp"
+        android:title="Remplir liste"
+        app:showAsAction="never"></item>
+</menu>

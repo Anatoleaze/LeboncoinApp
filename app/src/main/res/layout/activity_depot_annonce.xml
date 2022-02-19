@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sulli_000.leboncoin.DepotAnnonce">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp">
+
+        <TextView
+            android:id="@+id/titreText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Titre" />
+
+
+        <EditText
+            android:id="@+id/titreValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="8dp"
+            android:padding="5dp"
+            android:background="@drawable/border"
+            android:hint="Titre"/>
+
+        <TextView
+            android:id="@+id/prixText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Prix"/>
+
+        <EditText
+            android:id="@+id/prixValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="8dp"
+            android:padding="5dp"
+            android:background="@drawable/border"
+            android:hint="Prix"/>
+
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Description"/>
+
+        <EditText
+            android:id="@+id/descriptionValue"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="8dp"
+            android:padding="5dp"
+            android:background="@drawable/border"
+            android:hint="Description"/>
+
+        <TextView
+            android:id="@+id/cpText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Code Postale"/>
+
+        <EditText
+            android:id="@+id/cpValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="8dp"
+            android:padding="5dp"
+            android:hint="Code postale"/>
+
+
+        <TextView
+            android:id="@+id/villeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Ville"/>
+
+        <EditText
+            android:id="@+id/villeValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="8dp"
+            android:padding="5dp"
+            android:background="@drawable/border"
+            android:hint="Ville"/>
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/bouton_depot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Deposer" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
