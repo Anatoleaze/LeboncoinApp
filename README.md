@@ -2,11 +2,6 @@
 
 ![Aperçu de l'application](image/android.png)
 
-## 📌 Nom du projet
-**LeboncoinApp**
-
----
-
 ## 📄 Description courte
 Application mobile Android développée en Java inspirée de la plateforme Leboncoin. Elle permet aux utilisateurs de créer un compte, de publier des annonces avec photos et d'entrer en contact directement avec les vendeurs par téléphone. Une solution fluide et responsive connectée à des APIs REST.
 
