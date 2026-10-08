@@ -1,55 +1,47 @@
-# LeboncoinApp – Application mobile de petites annonces
+# 📱 LeboncoinApp – Application mobile de petites annonces
 
-**LeboncoinApp** est un projet Android développé avec **Java** et **Android Studio**, inspiré de la célèbre plateforme de petites annonces Leboncoin.  
-L’application permet aux utilisateurs de **se connecter**, **publier des annonces**, **consulter les annonces existantes** et **contacter directement un annonceur** en cliquant sur son numéro de téléphone.
+![Aperçu de l'application](image/android.png)
+
+## 📌 Nom du projet
+**LeboncoinApp**
 
 ---
 
-## 📱 Aperçu
-![Aperçu du jeu](image/android.png)
+## 📄 Description courte
+Application mobile Android développée en Java inspirée de la plateforme Leboncoin. Elle permet aux utilisateurs de créer un compte, de publier des annonces avec photos et d'entrer en contact directement avec les vendeurs par téléphone. Une solution fluide et responsive connectée à des APIs REST.
 
-## ✨ Fonctionnalités principales
+---
 
-- Authentification des utilisateurs
-- Création et publication d’annonces avec image
-- Consultation des annonces en ligne
-- Appel direct depuis une annonce (clic sur le numéro de téléphone)
-- Interface utilisateur intuitive et responsive
+## 📖 Description détaillée
+LeboncoinApp est une application mobile native conçue sous Android Studio mettant en œuvre les principes fondamentaux du développement Android en Java. Le projet s'articule autour d'une architecture client-serveur communiquant via des APIs REST pour la gestion et la synchronisation des annonces en temps réel.
+
+L'application intègre une gestion complète du matériel et de l'OS Android : capture de photos via la caméra de l'appareil pour l'illustration des annonces, gestion des permissions, et interaction directe avec les fonctions d'appel du téléphone (Intent d'appel sur clic d'un numéro). L'interface utilisateur privilégie la lisibilité et la réactivité sur tous les formats d'écrans.
+
+---
+
+## ✨ Fonctionnalités du projet
+- 🔐 **Authentification utilisateur** : Création de compte et connexion sécurisée.
+- 📸 **Publication d'annonces** : Formulaire d'ajout d'annonces intégrant la prise de vue directe via la caméra.
+- 📋 **Flux d'annonces** : Consultation et recherche des petites annonces enregistrées en ligne.
+- 📞 **Contact direct** : Déclenchement automatique d'un appel téléphonique en cliquant sur le numéro d'un annonceur.
+- 📱 **UI Responsive & Native** : Interface ergonomique développée sur-mesure pour les appareils Android.
 
 ---
 
 ## 🛠️ Technologies utilisées
-
-- **Langage :** Java  
-- **IDE :** Android Studio  
-- **APIs REST :** pour l’envoi et la récupération des annonces  
-- **Bibliothèques externes :**  
-  - Accès à la caméra pour ajouter des photos aux annonces  
-  - Intégration d’outils tiers pour améliorer l’ergonomie et la compatibilité
-
----
-
-## 🎯 Objectifs pédagogiques
-
-Ce projet m’a permis de :
-
-- Me familiariser avec le **développement mobile Android**
-- Concevoir des **interfaces utilisateurs modernes et fonctionnelles**
-- Utiliser des **bibliothèques externes** pour enrichir l'expérience utilisateur
-- Implémenter la **communication avec des serveurs distants via des APIs**
-- Gérer des fonctionnalités complexes comme l’appel téléphonique intégré ou l’ajout d’images via la caméra
+- **Langage :** Java
+- **IDE :** Android Studio
+- **Architecture & Réseau :** APIs REST
+- **Fonctionnalités natives :** Caméra, gestion des Intents d'appel
 
 ---
 
 ## 🚀 Lancement de l’application
-
-1. Ouvrir le projet dans Android Studio  
-2. Lancer l’émulateur ou connecter un appareil Android  
-3. Compiler et exécuter l'application
+1. Ouvrir le projet dans **Android Studio**
+2. Lancer un émulateur Android ou connecter un appareil physique via USB
+3. Compiler et exécuter l'application (`Run 'app'`)
 
 ---
 
-## 📌 À propos
-
-Ce projet a été réalisé dans le cadre de mon apprentissage du développement mobile. Il m’a permis d’acquérir une solide expérience pratique et de comprendre les étapes clés de la conception d’une application Android complète.
-
+## 📄 Licence
+Projet réalisé dans un but pédagogique et de démonstration.
